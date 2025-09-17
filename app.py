@@ -3,7 +3,7 @@ import requests
 
 # --- Configuración API (hardcodeada) ---
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROQ_API_KEY = "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"   # ⚠️ cuidado si subes a GitHub público
+GROQ_API_KEY = "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"   # ⚠️ cuidado si subes a GitHub público
 GROQ_MODEL = "llama3-8b-8192"
 
 # --- Inicializar historial de chat ---
