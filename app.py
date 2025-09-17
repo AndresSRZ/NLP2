@@ -2,6 +2,10 @@ import streamlit as st
 import requests
 import os
 
+GROQ_API_URL="https://api.groq.com/openai/v1/chat/completions"
+GROQ_API_KEY="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"
+GROQ_MODEL="llama3-8b-8192"
+
 # Inicializar historial de chat en session_state
 if "messages" not in st.session_state:
     st.session_state.messages = []
